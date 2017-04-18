@@ -393,8 +393,9 @@
         ;; this key binding is for recentering buffer in Emacs
         ;; it would be troublesome if Emacs user
         ;; Vim users can use this key since they have other key
-        (define-key inferior-python-mode-map
-          (kbd "C-l") 'spacemacs/comint-clear-buffer))
+        ;; (define-key inferior-python-mode-map
+        ;;   (kbd "C-l") 'spacemacs/comint-clear-buffer)
+	)
 
       ;; add this optional key binding for Emacs user, since it is unbound
       (define-key inferior-python-mode-map
